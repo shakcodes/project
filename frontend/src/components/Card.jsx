@@ -7,12 +7,10 @@ function Card() {
   return (
     <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 bg-[linear-gradient(215deg,_#6151F0,_#000)] p-4">
       <div className="w-full mx-auto p-6 bg-[#ffffff13] shadow-lg rounded-2xl">
-        {/* Header Section */}
         <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 mb-4">
           <div className="text-white font-semibold font-inter text-lg text-center sm:text-left">
             Most Profitable Instrument
           </div>
-
           <div className="flex gap-1 border-2 border-[#6151f002] bg-[#3054d54a] rounded-lg h-10 items-center justify-center px-2 mx-auto sm:mx-0">
             <div className="bg-[#CBFF04] text-black px-3 py-2 rounded-[8px] text-sm font-medium shadow-[0_4px_12px_0_#A1FA4F]">
               <FaIndianRupeeSign />
@@ -22,8 +20,6 @@ function Card() {
             </div>
           </div>
         </div>
-
-        {/* Instrument Section */}
         <div className="flex flex-col flex-wrap mt-[-10px] rounded-lg sm:flex-row sm:items-center sm:justify-between">
           <div className="w-full text-[20px] text-center sm:text-left sm:text-[25px] text-white font-medium pb-1">
             F&O
@@ -37,7 +33,6 @@ function Card() {
           </div>
         </div>
       </div>
-
       <div className="w-full mx-auto p-6  pt-0 pb-2 bg-[#ffffff13] shadow-lg rounded-2xl">
         <div className="flex items-center justify-between text-white">
           <div className="mt-10 w-16 text-[10px]">Equity</div>
@@ -104,7 +99,7 @@ function Card() {
           <div className="w-[1px] h-[40px] bg-white/40 mb-0"></div>
         </div>
       </div>
-      <div className="w-full mx-auto p-6  pt-0 pb-2 bg-[#ffffff13] shadow-lg rounded-2xl">  
+      <div className="w-full mx-auto p-6  pt-0 pb-2 bg-[#ffffff13] shadow-lg rounded-2xl">
         <div className="flex items-center justify-between text-white">
           <div className="mt-10 w-16 text-[10px]">Equity</div>
           <div className="w-[1px] h-[40px] bg-white/40 mr-[0px]"></div>
